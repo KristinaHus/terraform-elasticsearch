@@ -3,7 +3,7 @@
 data "aws_ami" "elasticsearch_ami" {
   most_recent = true
   owners      = ["self"]
-  name_regex  = "pelias-elasticsearch-*"
+  name_regex  = "pelias-elasticsearch-7.5.1-amd64-1600347309"
 
   filter {
     name   = "tag:env"
